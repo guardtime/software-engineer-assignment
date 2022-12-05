@@ -1,0 +1,3 @@
+rootProject.name = 'software-engineer-assignment'
+include 'container-library'
+include 'end-user-application'

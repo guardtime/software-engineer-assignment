@@ -1,0 +1,17 @@
+plugins {
+    id 'java-library'
+}
+
+group 'com.guardtime'
+version '0.1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    api 'com.guardtime:ksi-common:4.18.217'
+
+    implementation 'com.guardtime:ksi-api:4.18.217'
+    implementation 'com.guardtime:ksi-service-client-simple-http:4.18.217'
+}

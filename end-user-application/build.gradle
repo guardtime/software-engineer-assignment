@@ -1,0 +1,18 @@
+plugins {
+    id 'application'
+}
+
+group 'com.guardtime'
+version '0.1.0-SNAPSHOT'
+
+application {
+    mainClass = 'com.guardtime.Application'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation project(':container-library')
+}
