@@ -66,3 +66,24 @@ While you can choose the format for the manifest file for yourself, it is recomm
 * The solution must accept a large number of input files (10000).
 * The solution must be covered by the unit and integration tests.
 * Delivery must include the source together with documentation and tests.
+
+## Hints
+
+<details>
+    <summary>1. Container structure</summary>
+
+The container can be thought of as the Estonian digital signature container (`*.asice`). When implementing the API, one may draw ideas from the functionalities that the DigiDoc client offers.
+
+Articles to read that may bring clarity:
+1. [BDOC file format](https://www.id.ee/en/article/bdoc-file-format/), the article also contains reference to BDOC format specification
+2. [What is the difference between digitally signed documents with .bdoc and .asice extensions?](https://www.id.ee/en/article/what-is-the-difference-between-digitally-signed-documents-with-bdoc-and-asice-extensions/)
+
+</details>
+
+<details>
+    <summary>2. TLV element creation</summary>
+
+SDK class [com.guardtime.ksi.tlv.TlvElement](https://guardtime.github.io/ksi-java-sdk/com/guardtime/ksi/tlv/TLVElement.html) can be used for creation of the TLV elements.
+
+SDK class [com.guardtime.ksi.hashing.DataHasher](https://guardtime.github.io/ksi-java-sdk/com/guardtime/ksi/hashing/DataHasher.html) can be used for calculating hashes of the input file(s).
+</details>
