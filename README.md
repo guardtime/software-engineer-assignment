@@ -4,7 +4,7 @@ It is recommended to read the Java SDK documentation ([KSI Java SDK code](https:
 
 ## Setup
 
-As it's not possible to create a private fork, follow this GitHub guide: [Duplicating a repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/duplicating-a-repository).
+Follow the [GitHub guide](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) to create a private fork of this template repository.
 
 While the implementation of the API can be chosen by the candidate, a template is given in this repository with two isolated subprojects:
 * `container-library` - implements the API
