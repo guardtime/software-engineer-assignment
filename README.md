@@ -4,7 +4,7 @@ It is recommended to read the Java SDK documentation ([KSI Java SDK code](https:
 
 ## Setup
 
-Follow the [GitHub guide](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) to create a private fork of this template repository.
+Clone the template repository to your local machine. When working on the solution, maintain local Git history. When submitting the solution, include the hidden `.git` folder. 
 
 While the implementation of the API can be chosen by the candidate, a template is given in this repository with two isolated subprojects:
 * `container-library` - implements the API
@@ -65,7 +65,7 @@ While you can choose the format for the manifest file for yourself, it is recomm
 * The solution must accept large data files (2-3GB).
 * The solution must accept a large number of input files (10000).
 * The solution must be covered by the unit and integration tests.
-* Delivery must include the source together with documentation and tests.
+* Delivery must include the source & `.git` directory together with documentation and tests.
 
 ## Hints
 
