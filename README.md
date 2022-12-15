@@ -87,3 +87,9 @@ SDK class [com.guardtime.ksi.tlv.TlvElement](https://guardtime.github.io/ksi-jav
 
 SDK class [com.guardtime.ksi.hashing.DataHasher](https://guardtime.github.io/ksi-java-sdk/com/guardtime/ksi/hashing/DataHasher.html) can be used for calculating hashes of the input file(s).
 </details>
+
+<details>
+    <summary>3. KSI signing client setup</summary>
+
+`ksi-sdk-samples` repository contains a [demonstration](https://github.com/guardtime/ksi-sdk-samples/blob/master/java-sdk/src/test/java/com/guardtime/ksi/samples/KsiSamples.java#L101) on how to set up the KSI signing client.
+</details>
